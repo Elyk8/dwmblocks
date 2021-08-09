@@ -14,6 +14,7 @@ static const Block blocks[] = {
   {"",             "sb-brightness",           0,                      8       },
   {"",             "sb-battery",              5,                      9       },
   {"",             "sb-clock",                30,                     10      },
+  {"",             "sb-keymode",              0,                      14      },
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
