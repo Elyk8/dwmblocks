@@ -4,9 +4,9 @@ static const Block blocks[] = {
   {"",             "sb-music",                0,                      1       },
   {"",             "sb-pacpackages",          0,                      2       },
   {"",             "sb-forecast",             18000,                  3       },
-  /* {"",             "sb-nettraf",              1,                      11      }, */
-  /* {"",             "sb-memory",               10,                     12      }, */
-  {"",             "sb-cpubars",              1,                     13      },
+  // {"",             "sb-nettraf",              1,                      11      },
+  // {"",             "sb-memory",               10,                     12      },
+  /* {"",             "sb-cpu",                  10,                     13      }, */
   {"",             "sb-mailbox",              180,                    4       },
   {"",             "sb-microphone",           0,                      5       },
   {"",             "sb-volume",               0,                      6       },
