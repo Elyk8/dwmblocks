@@ -1,20 +1,18 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
   /*Icon*/        /*Command*/                 /*Update Interval*/     /*Update Signal*/
-  {"",             "sb-music",                0,                      1       },
-  {"",             "sb-pacpackages",          0,                      2       },
-  {"",             "sb-forecast",             18000,                  3       },
-  /* {"",             "sb-nettraf",              1,                      11      }, */
-  /* {"",             "sb-memory",               10,                     12      }, */
-  /* {"",             "sb-cpubars",              1,                     13      }, */
-  {"",             "sb-mailbox",              180,                    4       },
-  {"",             "sb-microphone",           0,                      5       },
-  {"",             "sb-volume",               0,                      6       },
-  {"",             "sb-redshiftstatus",       600,                    7       },
-  {"",             "sb-brightness",           0,                      8       },
-  {"",             "sb-battery",              5,                      9       },
-  {"",             "sb-clock",                30,                     10      },
-  {"",             "sb-keymode",              0,                      14      },
+  {"",             "sb-radio",                0,                      1       },
+  {"",             "sb-pacpackages",          0,                      3       },
+  {"",             "sb-forecast",             18000,                  4       },
+  {"",             "sb-mailbox",              180,                    5       },
+  {"",             "sb-volume",               0,                      7       },
+  {"",             "sb-microphone",           0,                      6       },
+  {"",             "sb-redshiftstatus",       600,                    8       },
+  {"",             "sb-brightness",           0,                      9       },
+  {"",             "sb-battery",              5,                      10      },
+  {"",             "sb-clock",                30,                     11      },
+  {"",             "sb-keymode",              0,                      12      },
+  {"",             "sb-music",                0,                      2       },
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.

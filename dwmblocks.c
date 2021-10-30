@@ -7,7 +7,7 @@
 #include <errno.h>
 #include <X11/Xlib.h>
 #define LENGTH(X) (sizeof(X) / sizeof (X[0]))
-#define CMDLENGTH		4096
+#define CMDLENGTH		2048
 
 typedef struct {
 	char* icon;
@@ -264,7 +264,7 @@ void buttonhandler(int sig, siginfo_t *si, void *ucontext)
 		char shcmd[1024];
 		sprintf(shcmd,"%s && kill -%d %d",current->command, current->signal+34,process_id);
 		char *command[] = { "/bin/sh", "-c", shcmd, NULL };
-		setenv("BUTTON", button, 1);
+		setenv("BLOCK_BUTTON", button, 1);
 		setsid();
 		execvp(command[0], command);
 		exit(EXIT_SUCCESS);
